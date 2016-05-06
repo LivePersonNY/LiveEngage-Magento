@@ -1,8 +1,5 @@
 .idea
 *.zip
 *.tar.gz
-magento/*
-!*magento/app/code/community/LivePerson/
-!*magento/app/design/adminhtml/default/default/layout/liveengage.xml
-!*magento/app/design/adminhtml/default/default/template/liveengage/
-!*magento/app/etc/modules/LivePerson_LiveEngage.xml
+!/magento/app/design/frontend/base/default/layout/liveengage.xml
+!/magento/app/design/frontend/base/default/template/liveengage/
