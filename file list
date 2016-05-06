@@ -1,0 +1,9 @@
+app/code/community/LivePerson/*
+app/etc/modules/LivePerson_LiveEngage.xml
+app/design/adminhtml/default/layout/liveengage.xml
+app/design/adminhtml/default/template/liveengage/liveengage_config.phtml
+app/design/frontend/base/default/layout/livechat.xml
+app/design/frontend/base/default/template/liveengage/monitor.phtml <-- actual client JS loads here
+app/design/frontend/default/default/layout/livechat.xml
+app/design/frontend/default/default/template/liveengage/monitor.phtml <-- actual client JS loads here
+js/liveengage/liveengage.js <-- admin js
