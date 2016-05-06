@@ -1,5 +1,3 @@
 .idea
 *.zip
 *.tar.gz
-!/magento/app/design/frontend/base/default/layout/liveengage.xml
-!/magento/app/design/frontend/base/default/template/liveengage/

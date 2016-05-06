@@ -105,3 +105,5 @@ skin/frontend/enterprise
 skin/install/
 var/
 
+!*app/design/frontend/base/default/layout/liveengage.xml
+!*app/design/frontend/base/default/template/liveengage/loadwidget.phtml
