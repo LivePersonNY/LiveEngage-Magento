@@ -4,7 +4,7 @@ class LivePerson_LiveEngage_Model_System_Config_Routes
 {
     public function toOptionArray()
     {
-        return array(
+        $options = array(
             array(
                 'value' => 'cms',
                 'label' => 'CMS (pages)',
@@ -22,5 +22,6 @@ class LivePerson_LiveEngage_Model_System_Config_Routes
                 'label' => 'Customer',
             ),
         );
+        return $options;
     }
 }
