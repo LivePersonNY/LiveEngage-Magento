@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="liveperson_liveengage" translate="label" type="text" sortOrder="350" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>LivePerson LiveEngage</label>
+            <tab>general</tab>
+            <resource>LivePerson_LiveEngage::settings</resource>
+            <group id="settings" translate="label" type="text" sortOrder="120" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Settings</label>
+                <comment>
+                    <![CDATA[
+						<div style="width:46%;float:left;padding-right:4%;border-right:1px solid #ccc; margin: 0 0 10px 0;">
+							<h3>Already a LivePerson Customer?</h3>
+
+							<p>To configure this plugin you need to your LivePerson account number</p>
+
+							<p>Just enter your <strong>account number</strong> and you are ready to go</p>
+
+						</div>
+						<div style="width:46%;float:right;">
+							<h3>Not a LivePerson Customer?</h3>
+
+							<p>You'll need to sign up at <a href="https://www.liveperson.com/magento">liveperson.com</a> to use this module.</p>
+						</div>
+						]]>
+                </comment>
+                <field id="accountnumber" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Account number:</label>
+                </field>
+                <field id="enabled" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enable LiveEngage?</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <group id="routes" translate="label" type="text" sortOrder="130" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Enable LiveEngage on</label>
+
+                    <field id="cms" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>CMS Routes?</label>
+                        <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    </field>
+                    <field id="catalog" translate="label" type="select" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Catalog Routes?</label>
+                        <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    </field>
+                    <field id="checkout" translate="label" type="select" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Checkout Routes?</label>
+                        <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    </field>
+                    <field id="customer" translate="label" type="select" sortOrder="60" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Customer Routes?</label>
+                        <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    </field>
+                </group>
+            </group>
+        </section>
+    </system>
+</config>

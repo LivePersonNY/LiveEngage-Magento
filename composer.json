@@ -1,0 +1,37 @@
+{
+  "name": "LivePerson/module-LiveEngage",
+  "description": "LivePerson LiveEngage Module",
+  "version": "0.0.1",
+  "require": {
+    "php": "~5.5.0|~5.6.0",
+    "magento/module-store": "1.0.0-beta",
+    "magento/module-ui": "self.version"
+  },
+  "autoload": {
+    "psr-4": {"LivePerson\\LiveEngage\\":""},
+    "files": ["registration.php"]
+  },
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "LivePerson",
+      "email": "support@liveperson.com",
+      "homepage": "http://liveperson.com"
+    }
+  ],
+  "support": {
+    "email": "support@liveperson.com"
+  },
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "extra": {
+    "map": [
+      [
+        "*",
+        "LivePerson/LiveEngage"
+      ]
+    ]
+  }
+}

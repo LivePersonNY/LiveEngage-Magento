@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <liveperson_liveengage>
+            <settings>
+                <accountnumber><![CDATA[0]]></accountnumber>
+                <enabled>0</enabled>
+                <routes>
+                    <cms>1</cms>
+                    <catalog>1</catalog>
+                    <checkout>1</checkout>
+                    <customer>1</customer>
+                </routes>
+            </settings>
+        </liveperson_liveengage>
+    </default>
+</config>
